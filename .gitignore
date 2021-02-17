@@ -1,5 +1,6 @@
-/wp-admin
-/wp-includes
+wp-admin
+wp-includes
 .htaccess
 .user.ini
-wp-config.php
+.wp-config.php
+.txt

@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'hurghada_yalla' );
 
 /** MySQL database username */
-define( 'DB_USER', 'hurghada_yallusr' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'kKvVaSNT21MT' );
+define( 'DB_PASSWORD', '' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
