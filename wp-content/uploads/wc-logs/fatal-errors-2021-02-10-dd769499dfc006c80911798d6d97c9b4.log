@@ -1,0 +1,4 @@
+2021-02-10T11:13:08+00:00 CRITICAL Out of memory (allocated 1767899136) (tried to allocate 1052672 bytes) in C:\laragon\www\new4eversea\wp-content\plugins\backupbuddy\classes\core.php on line 3764
+
+2021-02-10T11:14:21+00:00 CRITICAL Out of memory (allocated 1287651328) (tried to allocate 1052672 bytes) in C:\laragon\www\new4eversea\wp-content\plugins\backupbuddy\classes\core.php on line 3764
+

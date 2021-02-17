@@ -1,0 +1,26 @@
+2021-02-08T05:58:02+00:00 CRITICAL syntax error, unexpected '?>' in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\taxonomy-trips-category.php on line 88
+
+2021-02-08T05:58:23+00:00 CRITICAL syntax error, unexpected '?>' in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\taxonomy-trips-category.php on line 87
+
+2021-02-08T06:36:43+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_post_type_link() in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\taxonomy-trips-category.php:84
+Stack trace:
+#0 C:\laragon\www\new4eversea\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\new4eversea\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\new4eversea\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\taxonomy-trips-category.php on line 84
+
+2021-02-08T06:36:49+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_post_type_link() in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\taxonomy-trips-category.php:84
+Stack trace:
+#0 C:\laragon\www\new4eversea\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\new4eversea\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\new4eversea\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\taxonomy-trips-category.php on line 84
+
+2021-02-08T07:19:54+00:00 CRITICAL syntax error, unexpected '{' in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\taxonomy-trips-category.php on line 95
+
+2021-02-08T07:20:42+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\taxonomy-trips-category.php on line 95
+
+2021-02-08T07:20:47+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\taxonomy-trips-category.php on line 95
+

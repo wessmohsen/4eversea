@@ -1,0 +1,28 @@
+2021-02-01T05:14:31+00:00 CRITICAL Uncaught Error: Call to undefined function gget_theme_file_uri() in C:\laragon\www\new4eversea\wp-content\themes\trendytravel-child\functions.php:106
+Stack trace:
+#0 C:\laragon\www\new4eversea\wp-includes\class-wp-hook.php(287): wess_slider('')
+#1 C:\laragon\www\new4eversea\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\new4eversea\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\new4eversea\wp-includes\script-loader.php(2004): do_action('wp_enqueue_scri...')
+#4 C:\laragon\www\new4eversea\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 C:\laragon\www\new4eversea\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\laragon\www\new4eversea\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\laragon\www\new4eversea\wp-includes\general-template.php(3005): do_action('wp_head')
+#8 C:\laragon\www\new4eversea\wp-content\themes\trendytravel\header.php(7): wp_head()
+#9 C:\laragon\www\new4eversea\wp-include in C:\laragon\www\new4eversea\wp-content\themes\trendytravel-child\functions.php on line 106
+
+2021-02-01T05:14:37+00:00 CRITICAL Uncaught Error: Call to undefined function gget_theme_file_uri() in C:\laragon\www\new4eversea\wp-content\themes\trendytravel-child\functions.php:106
+Stack trace:
+#0 C:\laragon\www\new4eversea\wp-includes\class-wp-hook.php(287): wess_slider('')
+#1 C:\laragon\www\new4eversea\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\new4eversea\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\new4eversea\wp-includes\script-loader.php(2004): do_action('wp_enqueue_scri...')
+#4 C:\laragon\www\new4eversea\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 C:\laragon\www\new4eversea\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\laragon\www\new4eversea\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\laragon\www\new4eversea\wp-includes\general-template.php(3005): do_action('wp_head')
+#8 C:\laragon\www\new4eversea\wp-content\themes\trendytravel\header.php(7): wp_head()
+#9 C:\laragon\www\new4eversea\wp-include in C:\laragon\www\new4eversea\wp-content\themes\trendytravel-child\functions.php on line 106
+
+2021-02-01T18:44:20+00:00 CRITICAL Out of memory (allocated 889192448) (tried to allocate 1052672 bytes) in C:\laragon\www\new4eversea\wp-content\plugins\backupbuddy\classes\core.php on line 3764
+

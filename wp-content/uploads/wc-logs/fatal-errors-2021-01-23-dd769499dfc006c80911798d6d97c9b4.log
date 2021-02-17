@@ -1,0 +1,8 @@
+2021-01-23T02:38:40+00:00 CRITICAL Out of memory (allocated 10485760) (tried to allocate 778240 bytes) in C:\laragon\www\new4eversea\wp-includes\wp-db.php on line 2022
+
+2021-01-23T02:38:52+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 118784 bytes) in C:\laragon\www\new4eversea\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 562
+
+2021-01-23T15:06:56+00:00 CRITICAL Out of memory (allocated 18874368) (tried to allocate 4096 bytes) in C:\laragon\www\new4eversea\wp-includes\media.php on line 3511
+
+2021-01-23T15:08:45+00:00 CRITICAL Out of memory (allocated 29360128) (tried to allocate 1056768 bytes) in C:\laragon\www\new4eversea\wp-includes\class.wp-scripts.php on line 458
+

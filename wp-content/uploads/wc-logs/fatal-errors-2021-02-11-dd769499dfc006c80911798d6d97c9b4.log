@@ -1,0 +1,4 @@
+2021-02-11T07:59:44+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\single-trips.php on line 99
+
+2021-02-11T10:22:08+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH), expecting ';' or ',' in C:\laragon\www\new4eversea\wp-content\themes\trendytravel\single-trips.php on line 106
+

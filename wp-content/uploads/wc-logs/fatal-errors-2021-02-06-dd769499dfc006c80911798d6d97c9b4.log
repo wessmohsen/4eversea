@@ -1,0 +1,12 @@
+2021-02-06T08:30:38+00:00 CRITICAL Out of memory (allocated 58720256) (tried to allocate 73728 bytes) in C:\laragon\www\new4eversea\wp-content\plugins\Ultimate_VC_Addons\Ultimate_VC_Addons.php on line 538
+
+2021-02-06T10:00:19+00:00 CRITICAL syntax error, unexpected 'Resource’' (T_STRING), expecting ')' in C:\laragon\www\new4eversea\wp-content\themes\trendytravel-child\functions.php on line 263
+
+2021-02-06T10:00:20+00:00 CRITICAL syntax error, unexpected 'Resource’' (T_STRING), expecting ')' in C:\laragon\www\new4eversea\wp-content\themes\trendytravel-child\functions.php on line 263
+
+2021-02-06T10:00:21+00:00 CRITICAL syntax error, unexpected 'Resource’' (T_STRING), expecting ')' in C:\laragon\www\new4eversea\wp-content\themes\trendytravel-child\functions.php on line 263
+
+2021-02-06T10:00:22+00:00 CRITICAL syntax error, unexpected 'Resource’' (T_STRING), expecting ')' in C:\laragon\www\new4eversea\wp-content\themes\trendytravel-child\functions.php on line 263
+
+2021-02-06T10:01:42+00:00 CRITICAL syntax error, unexpected ']', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\laragon\www\new4eversea\wp-content\themes\trendytravel-child\functions.php on line 342
+

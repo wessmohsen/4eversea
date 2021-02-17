@@ -1,0 +1,368 @@
+/*
+Theme Name:     Trendy Travel Child
+Theme URI: 		http://themes-demo.com/trendytravel/
+Author: 		the DesignThemes team
+Author URI: 	http://themeforest.net/user/designthemes
+Description:    Child theme for the TrendyTravel theme powered by DesignThemes
+Template:       trendytravel
+Version:        1.0
+*/
+
+
+
+
+article .container p , .para_style{
+    line-height: 30px;
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+div#dt-1505913242232-e64ea019-90fc ul.dt-primary-nav > li.current-menu-ancestor > a {
+    color: #fff !important;
+}
+
+
+.list_text_ico{
+    line-height: 40px;
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+
+.cpt_header_title{
+background: #093a48;
+font-size: 35px;
+/* margin-top: -8px; */
+color:#fff;
+margin-bottom:40px;
+
+font-weight:bolder;
+}
+
+.cpt_header_title a{
+	color:#fff !important;
+	font-weight:400;
+}
+
+#logo a img {
+    max-width: 85%;
+    padding: 8px 0px;
+}
+
+.footer_soc_ico a{
+	font-size:20px;
+	margin-left:15px;
+}
+
+
+.vc_tta.vc_general .vc_tta-panel-body{
+	padding:0px !important;
+}
+
+.vc_tta.vc_general .vc_tta-panel-body .wpb_text_column.wpb_content_element{
+	padding:0px 20px !important;
+}
+
+.itinerary-item{
+padding: 0 20px;
+margin:20px 0;
+}
+
+.itinerary-item img{
+border-radius: 5px;
+border: 1px solid #ddd;
+}
+
+.itinerary-item h2{
+position: absolute;
+padding: 20px;
+top: 0;
+color: #fff;
+font-weight: bold;
+text-shadow: 2px 2px 3px #000;
+}
+
+.dt-custom-nav-wrapper .dt-custom-nav > li > span.divider::before {
+    font-size: 15px !important;
+}
+
+.menu_thumb_img img{
+	max-width:80% !important;
+}
+
+.container.the_hd_title {
+    padding: 8px 0px 20px;
+}
+
+.slider_bottom_title .the_hd_title {
+    padding: 15px 0px 18px;
+}
+
+
+.content-full-width .size-full{
+	width:100%;
+}
+
+.boat_info_top {
+    position: absolute;
+    color: #fff;
+    background: #081a207d;
+    padding: 10px;
+    right: 5%;
+	bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+
+}
+
+.boot_info_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0 30px;
+}
+
+.boot_info_block .inf_ico{
+    max-width: 60px;
+}
+
+.boot_info_block .inf_data{
+    margin-left: 10px;
+}
+
+.boot_info_block .inf_title{
+    font-size: 24px;
+}
+
+
+.boot_info_block .inf_desc{
+    display: block;
+    font-size: 16px;
+}
+
+.list_with_ico .evc-icon-with-text{
+    margin-bottom: 10px;
+}
+
+
+
+.vc_images_carousel .vc_carousel-indicators li {
+    border: 0px solid white !important;
+    background-color: #b6b6b666 !important;
+}
+
+.vc_images_carousel .vc_carousel-indicators .vc_active {
+    border: 0px solid white !important;
+    background-color: #83B7C3 !important
+}
+
+.vc_images_carousel a{
+    color:#fff !important;
+}
+
+
+.list_item{
+    margin-right: 10px;
+}
+
+.include_list .list_item{
+    color: #1e9cb3;
+
+}
+
+.exclude_list .list_item{
+    color: red;
+}
+
+
+
+.hotel-details h2 {
+    font-size: 22px !important;
+}
+
+.hotel-details h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+
+.with-sidebar .hotel-item.hotel-list-view .hotel-details {
+    padding-right: 10% !important;
+}
+
+.highlights_col{
+    padding-left: 5% !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .highlights_col{
+        padding-left: 0 !important;
+    }
+}
+
+
+.hotel-thumb .image-overlay span.image-overlay-inside::before {
+    content: '\f06e' !important;
+}
+
+
+.wm_slider_trips .item{
+    max-height: 500px;
+}
+
+.trips_menu a{
+    padding:0px !important;
+}
+
+
+.inc_exc_section{
+    background: #26272D;
+    color: #fff;
+    margin: 50px 0px 0px;
+    padding: 50px 0px;
+}
+
+.inc_exc_section h3{
+    color:#fff;
+    font-weight: 700;
+}
+.trip_booking_btn .dt-sc-button.medium {
+    font-size: 18px;
+    padding: 13px 60px;
+    margin:20px 0px;
+}
+
+.trip_booking_btn .dt-sc-button.blue{
+    background: #bf0204;
+}
+
+.trip_booking_btn .dt-sc-button.blue:hover{
+    background:#1e9cb3 !important;
+}
+
+#pop_booking_form{
+max-width: 800px !important;
+}
+
+.pop_booking_section{
+
+}
+
+.popup_grv_form{
+    padding:0px !important;
+}
+
+#pop_booking_form h4 ,#pop_booking_form h3{
+    margin: 0 !important;
+}
+
+#pop_booking_form .include_list, #pop_booking_form .exclude_list{
+    font-size: 90%;
+}
+
+.blocker{
+    z-index: 99999 !important;
+}
+
+.pop_booking_head{
+    background: #093A48;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 5px !important;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.pop_booking_body{
+    margin-top: 40px;
+    color: #5b5b5b;
+}
+
+.pop_short_desc{
+    margin:20px 0;
+}
+
+.popform_country .selection-box{
+    max-height: 43px;
+}
+
+.gform_wrapper .gfield_captcha_container img.gfield_captcha {
+    float: left !important;
+}
+
+.gfield_captcha_container{
+    padding-top: 15px !important;
+}
+
+.gform_wrapper .simple_captcha_medium input {
+    width: 160px!important;
+    margin-right: 35px;
+}
+
+.gfield_captcha_container .gfield_captcha_input_container{
+    float:right !important;
+}
+
+.gform_wrapper li.hidden_label input {
+    margin-top: 4px !important;
+}
+
+
+
+
+
+.div-table {
+    display: table;
+    width: auto;
+    text-align: center;
+    background-color: #eee;
+    border-spacing: 5px; /* cellspacing:poor IE support for  this */
+}
+.div-table-row {
+    display: table-row;
+    width: auto;
+    clear: both;
+    background-color: #fff;
+}
+.div-table-col {
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 144px;
+    padding: 16px 0;
+}
+
+.div-table-head{
+    text-align: left;
+    background: #BF0204;
+    color:#fff;
+    padding:20px;
+    font-size: 25px;
+}
+
+.booking-col button{
+    margin: 0px !important;
+}
+
+.booking-col {
+    padding: 8px !important;
+}
+
+.head-fixed-row{
+    background: #414141;
+    color:#fff;
+}
+
+.booking-col a{
+    color:#fff;
+}
+.booking-col a:hover{
+    color:#fff;
+}
+
+.dt-logo-container a img {
+    min-width: 158px;
+}

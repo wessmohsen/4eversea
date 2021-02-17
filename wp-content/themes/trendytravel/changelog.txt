@@ -1,0 +1,304 @@
+﻿*** TrendyTravel WordPress Theme Changelog ***
+
+2020.11.27 - version 5.0
+
+* Latest jQuery fixes updated
+* Updated: All premium plugins 
+
+2020.10.21 - version 4.9
+
+* Updated: Coming soon enabled sticky menu issue
+* Updated: All premium plugins
+* Updated: Woocommerce latest version
+* Updated: Booking Page issue
+* Updated: Hotel Rooms availability settings fix
+* Updated: Iphone click issue
+
+2020.09.14- version 4.8
+
+* Compatible with wordpress 5.5.1
+* Updated: Notice errors
+* Updated: Fatal error on other theme activation
+* Updated: All premium plugins
+* Updated: Outdated copies of some WooCommerce template files
+* Updated: Icon box shortcode image option design issue
+* Updated: Show reviews, recommendations, hotels and destination button on/off fix in places backend
+* Updated: Show book now, ratings and review button on/off fix in hotels backend
+* Updated: Backend Places template page, category filter option added
+* Updated: Backend Hotels template page, category filter option added
+* Updated: Header login link not working issue
+* Updated: Fatal error on woocommerce deactivation
+
+2020.08.13 - version 4.7
+
+* Compatible with wordpress 5.5
+
+2020.07.28 - version 4.6
+
+* Updated: Envato Theme check
+* Updated: sanitize_text_field added
+* Updated: All wordpress theme standards
+* Updated: All premium plugins
+
+2020.02.06 - version 4.5
+
+* Updated : All premium plugins
+
+2020.01.28 - version 4.4
+
+* Compatible with wordpress 5.3.2
+* Updated: All premium plugins
+* Updated: All wordpress theme standards
+* Updated: Privacy and Cookies concept
+* Updated: Gutenberg editor support for custom post types
+
+* Fixed: Google Analytics issue
+* Fixed: Mailchimp email client issue
+* Fixed: Privacy Button Issue
+* Fixed: Gutenberg check for old wordpress version
+
+* Improved: Tags taxonomy added for portfolio
+* Improved: Single product breadcrumb section
+* Improved: Revisions options added for all custom posts
+
+2019.11.14 - version 4.3
+
+* Updated all wordpress theme standards
+* Compatible with latest Gutenberg editor
+* Updated: All premium plugins
+* Compatible with wordpress 5.3
+
+2019.07.26 - version 4.2
+
+* Compatible with wordpress 5.2.2
+* Updated: All premium plugins
+* Updated: Revisions added to all custom post types
+* Updated: Gutenberg editor support for custom post types
+* Updated: Link for phone number module
+* Updated: Online documentation link, check readme file
+
+* Fixed: Customizer logo option
+* Fixed: Google Analytics issue
+* Fixed: Mailchimp email client issue
+* Fixed: Gutenberg check for old wordpress version
+* Fixed: Edit with Visual Composer for portfolio
+* Fixed: Header & Footer wpml option
+* Fixed: Smooth scrolling in ie 11
+* Fixed: Site title color
+* Fixed: Privacy popup bg color
+* Fixed: 404 page scrolling issue
+
+* Improved: Single product breadcrumb section
+* Improved: Tags taxonomy added for portfolio
+* Improved: Woocommerce cart module added with custom class option
+
+* New: Whatsapp Shortcode
+
+2019.07.08 – version 4.1
+
+* Updated dt_rooms issue
+
+2019.02.07 – version 4.0
+
+* Major update of TrendyTravel theme.
+* All the demo contents updated to Visual Composer modules
+* Compatible with wordpress 5.0.3
+* Themes options with codestar framework.
+* Customizer options with Kirki plugin.
+* Gutenberg compatible.
+* Updated documentation.
+* Clients please do not upload the new version TrendyTravel theme or plugin files to your existing trendytravel old version, since the site will crash. If you need to continue with your old version, we have provided the old version trendytravel-old.zip(3.8) separately please use those files. If you need to go with the new visual composer version, you need to install it in a fresh site.
+* Please follow this KB steps for installing the new 4.0 version http://support.wedesignthemes.com/knowledge-base/steps-to-install-new-themes-version/
+
+2018.12.25 – version 3.7
+ 
+ * Latest wordpress version 5.0.2 compatible
+ * Updated latest version of all third party plugins
+ * Updated documentation
+
+2018.10.05 - version 3.6
+
+* Fix - Tracking Code Option
+* Fix - Archive Page issue
+* Fix - Updated Plugin files included 
+
+2018.08.20 - version 3.5
+ * Fix - Buddypress issue
+ * Updated latest version of all third party plugins
+ * GDPR Update
+ * Compatible with wordpress 4.9.8
+
+2018.03.08 - version 3.4
+ * New Documentation Updated
+ * All theme functions updated for child theme support
+ * Option to change site color
+ * BuddyPress pages sidebar option issue fixed
+ * Unyson page builder conflict issue fixed
+ * Mail issue fixed with wp core function wp_mail()
+ * In Bpanel # comment removed
+ * Visual Editor option with page builder issue fixed
+ * Color piker issue inside page builder module issue fixed
+ * TGM plugin bulk install issue fixed
+ * Social media shortcode target attribute included
+ * New Widget Modules in Page Builder issues fixed
+ * Menu with disable link option issue fixed
+ * WordPress 4.9.4 compatible
+ * Some design tweaks updated
+ * Updated latest version of all third party plugins
+
+2017.08.24 - version 3.3
+ * Footer content section editable in BPanel
+ * Iconbox shortcodes types content renaming
+ * Woocommerce 4.8.1 compatible
+ * Updated latest version of all third party plugins
+ * Unyson importer content updated
+
+2017.04.25 - version 3.2
+ * Packages shortcode variable product price issue updated
+ * Updated latest version of all third party plugins
+ * Unyson importer content updated
+ * Woocommerce 3.0 compatible
+ * Some design tweaks updated
+ * Few php warnings fixed
+ * Twitter widget link text issue fixed
+ * Few latest scripts updated
+
+2016.11.09 - version 3.1
+ * Page builder fix
+
+2016.10.15 - version 3.0
+ * BPanel UI design fixes for Events Calendar update
+
+2016.10.03 - version 2.9
+ * Woocommerce coupon code update css issue fixed
+ * WPML page builder issue fixed
+ * Dummy data content optimized
+ * Mailchimp updated to latest api 3.0
+ * Updated latest version of all third party plugins
+ * Font awesome css updated
+ * Social share links alignment issue fixed
+ * Page Builder UI enhancements
+ * Dummy content importer updated
+ * Unyson importer plugin included
+ * SSL compatible updated
+
+2016.08.17 - version 2.8
+ * WordPress 4.6 Compatible
+ * Visual Composer 4.12 Compatible
+ * Tribe events widget area class updated
+ * Some translation text missing updated
+ * BuddyPress cover image issue fixed
+ * Global sidebar theme option issue updated
+ * Some design issues updated
+
+2016.08.08 - version 2.7
+ * Map jQuery updated with Google map api
+
+2016.07.01 - version 2.6
+ * Latest TGM plugin updated
+ * Latest Responsive Styled Google Maps plugin updated for Google Maps API key request.
+ * Updated latest version of all third party plugins
+ * Little design tweaks fixed
+
+2016.04.21 - version 2.5
+ * WordPress 4.5 Compatible
+ * Updated latest version of all third party plugins
+ * Pagebuilder small issue fixed
+ * Some design issues fixed
+
+2016.03.24 - version 2.4
+ * Updated latest version of all third party plugins
+ * WordPress 4.4.2 Compatible
+ * WPML compatible issue updated
+ * Pagebuilder small issues fixed
+ * Titledbox shortcode updated
+ * Font awesome stylesheet updated
+ * Some translation texts updated
+ * Some design issues fixed
+
+2015.11.20 - version 2.3
+ * All plugins compatible checked
+ * Added retina support option in BPanel
+ * New Hotels list shortcode added
+ * Hotels & Places single page map issue fixed
+ * Some translation text updated
+ * New documentation updated
+ * Font awesome stylesheet updated
+ * WPML compatible issue updated
+ * BPanel media upload option updated
+ * Added global page layout option in BPanel
+ * WordPress 4.3.1 Compatible
+
+2015.07.29 - version 2.2
+ * All plugins compatible checked
+ * Woocommerce category listing fixed
+
+2015.07.10 - version 2.1
+ * One column shortcode issue fixed
+ * Captcha for contact form added
+ * Category option added for timeline shortcode
+ * Some design issues fixed
+ * Logged users rating issue fixed
+
+2015.06.24 - version 2.0
+ * Fixed XSS vulnerability in prettyPhoto jQuery library
+
+2015.04.25 - version 1.9
+ * Fixed XSS vulnerability
+ * Updated to TGM Plugin 2.4.1
+ * WordPress 4.2 Compatible
+ * Updated latest version of all third party plugins
+ * BPanel options issues fixed
+
+2015.03.23 - version 1.8
+ * Added search module disable option
+ * wpml-config.xml file updated
+ * Single post date disable option fixed
+ * Tour package shortcode issue fixed
+ * All plugins compatible checked
+ * Added "order" option in events shortcode
+
+2015.01.12 - version 1.7
+ * New Image Sizes updated
+
+2014.12.27 - version 1.6
+ * Now Retina ready
+ * Documentaion updated
+ * Added placeholder image disable option
+ * Theme & Plugin language files updated
+ * Added demo slider zip file
+ * rtl.css updated
+ * Dummy content file updated
+ * Some responsive issues fixed
+ * Few BPanel files updated
+
+2014.11.29 - version 1.5
+ * Added Hotels Reservation Module
+ * Added category option in Hotels Widget
+ * Added category option in Package List shortcode
+
+2014.10.24 - version 1.4
+ * Added New Page Builder to create pages
+ * All plugins Compatible checked
+ * Social widget class name updated
+
+2014.09.30 - version 1.3
+ * Jquery nice-scroll updated
+
+2014.09.11 - version 1.2
+ * WordPress 4.0 Compatible
+ * WooCommerce 2.2.2 Compatible
+ * Revolution Slider 4.6.0 updated
+ * Some BPanel option issues fixed
+ * Hotel details metabox issues fixed
+ * Included: Disable Loading bar option
+
+2014.08.21 - version 1.1
+ * Archive pages layout option issues fixed
+ * Places category archives page added
+ * BPanel appearance tab font selection updated
+ * rtl.css updated
+
+2014.07.26 - version 1.0
+ * First release!
+ 

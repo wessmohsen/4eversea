@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Table of Content
+==================================================
+	1.0  -  Donutchart
+	2.0  -  DT Responsive*/
+	
+	/*--------------------------------------------------------------
+	1.0 - Donutchart
+	--------------------------------------------------------------*/
+	.dt-sc-donutchart { text-align:center; margin:0px auto 30px; }
+	h5.dt-sc-donutchart-title { text-align:center; text-transform:uppercase; width:100%; font-size:18px; margin-bottom:25px; font-weight:bold; }
+	
+	.dt-sc-donutchart-small { /* width:100px; */ margin:0px auto; }
+	.dt-sc-donutchart-medium { /* width:200px; */ margin:0px auto; }
+	.dt-sc-donutchart-large { /* width:300px; */ margin:0px auto; }
+	.dt-sc-donutchart-small, .dt-sc-donutchart-medium, .dt-sc-donutchart-large { text-align:center; }
+	
+	.dt-sc-donutchart-small .donutchart-text { font-size:30px !important; }	
+	.dt-sc-donutchart-medium .donutchart-text { font-size:40px !important; }	
+	.dt-sc-donutchart-large .donutchart-text { font-size:50px !important; }	
+	
+	.dark-bg .donutchart-text { color:#ffffff; }
+	
+	
+	/*--------------------------------------------------------------
+	2.0 - DT Responsive
+	--------------------------------------------------------------*/
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+
+		/** Medical **/
+		.dt-sc-one-fifth .dt-sc-donutchart-medium { width:160px; }
+		.dt-sc-one-fifth .dt-sc-donutchart { width: 150px !important; height: 150px !important; }
+		.dt-sc-one-fifth .dt-sc-donutchart-medium .donutchart-text { width: 150px !important; line-height: 150px !important; }
+	
+	}
+	
+	@media only screen and (max-width:992px) {
+		
+		h5.dt-sc-donutchart-title { font-size:16px; }
+		.dt-sc-donutchart-small .donutchart-text { font-size:24px !important; }
+		
+	}
+	
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+		
+		.dt-sc-one-fifth .dt-sc-donutchart-medium { width:120px; }
+		.dt-sc-one-fifth .dt-sc-donutchart, .dt-sc-donutchart-medium canvas { width: 180px !important; height: 180px !important; }
+		.dt-sc-one-fifth .dt-sc-donutchart-medium .donutchart-text, .dt-sc-donutchart-medium .donutchart-text { line-height: 180px !important; }
+		.dt-sc-one-fifth  h5.dt-sc-donutchart-title { font-size:15px; }
+		.dt-sc-donutchart-medium .donutchart-text { font-size:30px !important; }
+		.dt-sc-donutchart-medium .dt-sc-donutchart { height:auto !important; }
+		
+		.dt-sc-donutchart-large .dt-sc-donutchart, .dt-sc-donutchart-large canvas, .dt-sc-donutchart-large .donutchart-text { width: 210px !important; height: 210px !important; }
+		.dt-sc-donutchart-large .donutchart-text { line-height: 210px !important; }
+		.dt-sc-donutchart-large .donutchart-text { font-size:40px !important; }
+	
+	}
