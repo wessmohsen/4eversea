@@ -25,7 +25,6 @@ wp-content/*
 
 .idea
 *.exe
-/wp-config.php
 
  
 # Ignore everything in the "plugins" directory, except the plugins you
