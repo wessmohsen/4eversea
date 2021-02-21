@@ -7,13 +7,19 @@ $home_url = home_url( '/' );
 			<?php do_action( 'trendytravel_header' ); ?>
 	    </div>
 		<section class="content-full-width" id="primary">
-				<?php if (has_post_thumbnail()):?>
-				<div id="owl-demo" class="owl-carousel owl-theme">
-				  <div loading="lazy" class="item size-full"><img src="<?php echo $home_url; ?>/test/yacht/boat0.jpg" alt="Boat 1"></div>
-				  <div loading="lazy" class="item size-full"><img src="<?php echo $home_url; ?>/test/yacht/boat1.jpg" alt="Boat 2"></div>
-				  <div loading="lazy" class="item size-full"><img src="<?php echo $home_url; ?>/test/yacht/boat2.jpg" alt="Boat 3"></div>
-				</div>
-				<?php endif;?>
+
+                <?php
+                $images = get_field('boat_slider');
+                //$size = 'wm-slider-size'; // (thumbnail, medium, large, full or custom size)
+                if( $images ): ?>
+                    <div id="owl-demo" class="owl-carousel owl-theme wm_slider_trips">
+                        <?php foreach( $images as $image ): ?>
+                            <div loading="lazy" class="item">
+                                <img src="<?php echo esc_url($image['sizes']['wm-slider-size']); ?>" alt="" />
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+
 				
 				<div class="boat_info_top">
 					<div class="boot_info_block">
@@ -38,6 +44,8 @@ $home_url = home_url( '/' );
 						</div>
 					</div>
 				</div>
+
+           <?php endif; ?>
 				
 
 		</section>
