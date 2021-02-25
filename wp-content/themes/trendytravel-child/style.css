@@ -241,6 +241,10 @@ text-shadow: 2px 2px 3px #000;
     background:#1e9cb3 !important;
 }
 
+.hotel-details .dt-sc-button{
+    z-index: 0 !important;
+}
+
 #pop_booking_form{
 max-width: 800px !important;
 }
@@ -365,4 +369,38 @@ max-width: 800px !important;
 
 .dt-logo-container a img {
     min-width: 158px;
+}
+
+.course_info_top{
+    margin-bottom: 20px;
+}
+.course_info_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.course_info_block .inf_ico{
+    margin-right: 16px;
+    max-width: 40px;
+}
+
+.empty_spc_10{
+    margin-top:10px;
+    min-height:10px;
+}
+.empty_spc_20{
+    margin-top:20px;
+    min-height:20px;
+}
+.empty_spc_30{
+    margin-top:30px;
+    min-height:30px;
+}
+.empty_spc_40{
+    margin-top:40px;
+    min-height:40px
+}
+.hd_title_no_slider{
+    padding: 27px 0px 27px;
+    font-size: 23px;
 }

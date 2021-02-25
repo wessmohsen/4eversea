@@ -127,7 +127,7 @@ function register_custom_posts_courses_init() {
     // Register Courses
     $courses_labels = array(
         'name'               => 'Courses',
-        'singular_name'      => 'Course',
+        'singular_name'      => 'Courses',
         'menu_name'          => 'Courses'
     );
     $courses_args = array(
@@ -135,7 +135,7 @@ function register_custom_posts_courses_init() {
         'public'             => true,
         'capability_type'    => 'post',
         'has_archive'        => true,
-        'menu_icon'          => 'dashicons-location',
+        'menu_icon'          => 'dashicons-book-alt',
         'supports'           => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions' ),
         'rewrite' => array( 'slug' => 'courses/%courses-category%', 'with_front' => false ),
         'has_archive' => 'courses-category',
@@ -286,7 +286,7 @@ add_action('pre_get_posts', function($query) {
 
 
 function wess_slider(){
-    if( is_single() && ( get_post_type()=='boats' || get_post_type()=='trips') ){
+    if( is_single()  ){
             wp_register_style( 'wmslider_carousel', get_theme_file_uri('/slider/owl.carousel.min.css') );
 			wp_enqueue_style( 'wmslider_carousel' );
 			

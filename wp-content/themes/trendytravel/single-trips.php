@@ -47,6 +47,7 @@ $post_type = get_post_type( $page_id );
                                 <small class="inf_desc"><?php the_field('trip_duration'); ?></small>
                             </div>
                         </div>
+                        <?php if(get_field('trip_date')){ ?>
                         <div class="boot_info_block">
                             <div class="inf_ico">
                                 <img src="<?php echo $home_url; ?>/test/icons/date.png">
@@ -56,6 +57,7 @@ $post_type = get_post_type( $page_id );
                                 <small class="inf_desc"><?php the_field('trip_date'); ?></small>
                             </div>
                         </div>
+                        <?php } ?>
                     </div>
 
                 <?php endif; ?>

@@ -49,6 +49,7 @@ if (!function_exists('trendytravel_features')) {
 
 			//WM_Slider Image Sizes
 			add_image_size('wm-slider-size', 1600, 500, true);
+            add_image_size('medium-slider', 600, 400, true);
 
 			//wm_header Image Size
 			add_image_size('wm-header-size', 1600, 292, true);
