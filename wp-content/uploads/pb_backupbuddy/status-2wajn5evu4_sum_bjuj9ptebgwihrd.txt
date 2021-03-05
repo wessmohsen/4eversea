@@ -1,0 +1,227 @@
+{"event":"details","time":1614934995,"u":"63","run":"1.04","mem":"25.13","data":"BackupBuddy v8.4.19.0 using WordPress v5.6.1 with PHP v7.3.26 on Linux operating system."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.13","data":"Backup mode value setting to: `2`. Profile was: `2`. Global default is: `2`."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.13","data":"Calculated archive file: `\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip`."}
+{"event":"startFunction","time":1614934995,"u":"64","run":"1.04","mem":"25.13","data":"{\"function\":\"pre_backup\",\"title\":\"Getting ready to backup\"}"}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.13","data":"Performing pre-backup procedures."}
+{"event":"message","time":1614934995,"u":"64","run":"1.04","mem":"25.13","data":"Themes only backup mode."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.13","data":"Flushing will not be skipped (default)."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.13","data":"Verifying directories ..."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.13","data":"Temporary directory invalid. Updating from `\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_temp\/` to default."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.14","data":"Directories verified."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.14","data":"Backup serial generated: `2wajn5evu4`."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.14","data":"About to load fileoptions data in create mode."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.14","data":"Fileoptions instance #40."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.14","data":"Created fileoptions lock file `2wajn5evu4.txt.lock` with ID: 6041d7b39da300.29587030."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.14","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.14","data":"Fileoptions data loaded."}
+{"event":"details","time":1614934995,"u":"64","run":"1.04","mem":"25.14","data":"Updating statistics for last backup start."}
+{"event":"details","time":1614934995,"u":"65","run":"1.05","mem":"25.14","data":"Temp directory: `\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_temp\/2wajn5evu4\/`."}
+{"event":"details","time":1614934995,"u":"65","run":"1.05","mem":"25.14","data":"Backup root: `\/home\/hurghada\/public_html\/wp-content\/themes\/`."}
+{"event":"message","time":1614934995,"u":"65","run":"1.05","mem":"25.14","data":"Skipping database dump based on settings \/ profile type. Backup type: `themes`."}
+{"event":"details","time":1614934995,"u":"65","run":"1.05","mem":"25.14","data":"Integrity check will be performed based on settings for this profile."}
+{"event":"details","time":1614934995,"u":"65","run":"1.05","mem":"25.15","data":"Fileoptions `2wajn5evu4.txt` saved. 4016 bytes written."}
+{"event":"details","time":1614934995,"u":"65","run":"1.05","mem":"25.15","data":"Creating DAT (data) file snapshotting site & backup information."}
+{"event":"startSubFunction","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"{\"function\":\"post_count\",\"title\":\"Found 7 posts, 37 pages, and 5 comments.\"}"}
+{"event":"startSubFunction","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"{\"function\":\"post_count\",\"title\":\"Found 3 user accounts.\"}"}
+{"event":"details","time":1614934995,"u":"65","run":"1.06","mem":"25.16","data":"Compensating for SSL in siteurl."}
+{"event":"details","time":1614934995,"u":"65","run":"1.06","mem":"25.16","data":"DAT file contents (sans database user\/pass): Array; (;     [backupbuddy_version] => 8.4.19.0;     [wordpress_version] => 5.6.1;     [php_version] => 7.3.26;     [backup_time] => 1614927795;     [backup_type] => themes;     [profile] => Array;         (;             [type] => themes;             [title] => Themes Only;             [skip_database_dump] => 0;             [mysqldump_additional_includes] => ;             [mysqldump_additional_excludes] => ;             [backup_nonwp_tables] => 0;             [excludes] => ;             [active_plugins_only] => 0;             [integrity_check] => 1;             [profile_globaltables] => 1;             [profile_globalexcludes] => 1;             [backup_mode] => 2;             [custom_root] => ;             [exclude_media] => 0;             [exclude_themes] => 0;             [exclude_plugins] => 0;             [tip] => Just your themes.;         ); ;     [default_profile] => Array;         (;             [type] => defaults;             [title] => Global Defaults;             [skip_database_dump] => 0;             [backup_nonwp_tables] => 0;             [integrity_check] => 1;             [mysqldump_additional_includes] => ;             [mysqldump_additional_excludes] => ;             [excludes] => ;             [custom_root] => ;             [backup_mode] => 2;             [exclude_media] => 0;             [exclude_themes] => 0;             [exclude_plugins] => 0;             [active_plugins_only] => 0;         ); ;     [serial] => 2wajn5evu4;     [trigger] => manual;     [wp-config_in_parent] => ;     [deployment_direction] => ;     [abspath] => \/home\/hurghada\/public_html\/;     [siteurl] => https:\/\/hurghadashop.com;     [homeurl] => https:\/\/hurghadashop.com;     [blogname] => 4EVERSEA;     [blogdescription] => Adventure Awaits;     [active_plugins] => gravityforms\/gravityforms.php, Ultimate_VC_Addons\/Ultimate_VC_Addons.php, admin-menu-editor-pro\/menu-editor.php, advanced-custom-fields-pro\/acf.php, advanced-custom-fields-table-field\/acf-table.php, backupbuddy\/backupbuddy.php, better-search-replace\/better-search-replace.php, contact-form-7\/wp-contact-form-7.php, designthemes-core-features\/designthemes-core-features.php, disable-admin-notices\/disable-admin-notices.php, duplicate-page\/duplicatepage.php, extensive-vc-addon\/extensive-vc.php, google-captcha\/google-captcha.php, js_composer\/js_composer.php, kirki\/kirki.php, mega-addons-for-visual-composer\/index.php, really-simple-captcha\/really-simple-captcha.php, revslider\/revslider.php, roses-like-this\/likethis.php, woocommerce\/woocommerce.php;     [posts] => 7;     [pages] => 37;     [comments] => 5;     [users] => 3;     [wp_content_url] => https:\/\/hurghadashop.com\/wp-content;     [wp_content_dir] => \/home\/hurghada\/public_html\/wp-content;     [db_charset] => utf8mb4;     [db_collate] => utf8mb4_unicode_ci;     [db_prefix] => wp_;     [db_server] => localhost;     [db_name] => hurghada_yalla;     [db_user] => ;     [db_password] => ;     [db_exclusions] => ;     [db_inclusions] => ;     [db_version] => 5.5.5;     [breakout_tables] => Array;         (;         ); ;     [tables_sizes] => Array;         (;         ); ;     [force_single_db_file] => ;     [skip_database_dump] => 0;     [is_multisite] => ;     [is_multisite_export] => ;     [domain] => ;     [path] => ;     [upload_url] => ;     [upload_url_rewrite] => ; ); "}
+{"event":"details","time":1614934995,"u":"65","run":"1.06","mem":"25.16","data":"Finished creating DAT (data) file."}
+{"event":"details","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"Deleting malware transient."}
+{"event":"details","time":1614934995,"u":"65","run":"1.06","mem":"25.16","data":"Fileoptions `2wajn5evu4.txt` saved. 4184 bytes written."}
+{"event":"details","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"Finished pre-backup procedures."}
+{"event":"milestone","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"finish_settings"}
+{"event":"finishFunction","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"{\"function\":\"pre_backup\"}"}
+{"event":"message","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"Running in modern backup mode based on settings. Mode value: `2`. Trigger: `manual`."}
+{"event":"warnings","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"Scheduling Cron for `2wajn5evu4`."}
+{"event":"details","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"Pinging mysqli."}
+{"event":"details","time":1614934995,"u":"65","run":"1.06","mem":"25.15","data":"Database Server connection status verified."}
+{"event":"details","time":1614934995,"u":"66","run":"1.06","mem":"25.15","data":"Scheduling next step to run at `1614927640` (localized time: Mar 5, 2021 9:00:40 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `2wajn5evu4`."}
+{"event":"details","time":1614934995,"u":"66","run":"1.06","mem":"25.15","data":"Next step scheduled."}
+{"event":"startAction","time":1614934995,"u":"66","run":"1.06","mem":"25.15","data":"cronPass"}
+{"event":"cronParams","time":1614934995,"u":"66","run":"1.06","mem":"25.15","data":"eyJ0aW1lIjoxNjE0OTI3NjQwLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjJ3YWpuNWV2dTQiXX0="}
+{"event":"details","time":1614934995,"u":"66","run":"1.06","mem":"25.13","data":"Not calling spawn_cron()."}
+{"event":"details","time":1614934995,"u":"66","run":"1.06","mem":"25.13","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1614934997,"u":"49","run":"0.34","mem":"22.16","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"message","time":1614934997,"u":"49","run":"0.34","mem":"22.17","data":"Pong! Server replied."}
+{"event":"details","time":1614934997,"u":"51","run":"0.13","mem":"18.42","data":"--- New PHP process."}
+{"event":"details","time":1614934997,"u":"51","run":"0.13","mem":"18.42","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1614934997,"u":"51","run":"0.13","mem":"18.42","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1614934997,"u":"51","run":"0.13","mem":"18.42","data":"Reported PHP execution time - Configured: 30; Original: 600; Current: 600"}
+{"event":"details","time":1614934997,"u":"51","run":"0.13","mem":"18.42","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (3000M) or over-ridden value"}
+{"event":"details","time":1614934997,"u":"51","run":"0.13","mem":"18.42","data":"Reported PHP memory limits - Configured: 128M; Original: 3000M; Current: 3000M"}
+{"event":"message","time":1614934997,"u":"51","run":"0.13","mem":"18.42","data":"Running process for serial `2wajn5evu4`..."}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.53","data":"About to load fileoptions data for serial `2wajn5evu4`."}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.53","data":"Fileoptions instance #39."}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.53","data":"Created fileoptions lock file `2wajn5evu4.txt.lock` with ID: 6041d7b57f03d1.94877629."}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"cronPass"}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.55","data":"Fileoptions `2wajn5evu4.txt` saved. 4204 bytes written."}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"Found next step to run: `backup_zip_files`."}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"Peak memory usage: 18.958 MB"}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"-----"}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"Starting step function `backup_zip_files`. Attempt #1."}
+{"event":"startFunction","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"{\"function\":\"backup_zip_files\",\"title\":\"Zipping up files\"}"}
+{"event":"milestone","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"start_files"}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"Backup root: `\/home\/hurghada\/public_html\/wp-content\/themes\/`."}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.54","data":"Saving meta data to zip comment."}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.55","data":"Zip process reported: Initializing zip archive file: \/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_2wajn5evu4\/backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip"}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.55","data":"Zip process reported: Initialized zip archive file"}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.56","data":"PCLZip class not found. Attempting to load from `\/home\/hurghada\/public_html\/wp-admin\/includes\/class-pclzip.php`."}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.56","data":"PCLZIP_TEMPORARY_DIR defined: `\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_2wajn5evu4\/`"}
+{"event":"details","time":1614934997,"u":"52","run":"0.13","mem":"18.56","data":"Verifying initialized zip archive file exists."}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"File found (exec): .itbub"}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Verified initialized zip archive file exists."}
+{"event":"message","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Running standard ZIP system based on settings."}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Running under 64-bit PHP"}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Server API: fpm-fcgi"}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Using Best Available zip method based on settings."}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Creating ZIP file `\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip`. Adding directory `\/home\/hurghada\/public_html\/wp-content\/themes\/`. Excludes: "}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Trying exec method for ZIP."}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Using zip version: 3.0"}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Zip archive creation compression enabled based on settings."}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Zip archive creation symbolic links will not be followed based on settings."}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.56","data":"Zip archive creation actionable warnings will be ignored based on settings."}
+{"event":"details","time":1614934997,"u":"52","run":"0.14","mem":"18.57","data":"exec command: zip -g -r -q -y -lf '\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_2wajn5evu4\/temp_zip_exec_log.txt' -li -b '\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_2wajn5evu4\/' '\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_2wajn5evu4\/backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip' ."}
+{"event":"details","time":1614934999,"u":"82","run":"0.16","mem":"22.08","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1614934999,"u":"82","run":"0.16","mem":"22.08","data":"Temporary ZIP file size: 47.41 MB. Approximate speed: 32.06 MB\/sec. Elapsed: 1.48 secs."}
+{"event":"archiveSize","time":1614934999,"u":"82","run":"0.16","mem":"22.08","data":"47.41 MB"}
+{"event":"message","time":1614934999,"u":"82","run":"0.16","mem":"22.09","data":"Pong! Server replied."}
+{"event":"details","time":1614934999,"u":"89","run":"2.50","mem":"18.57","data":"Zip process exit code: 0"}
+{"event":"details","time":1614934999,"u":"89","run":"2.50","mem":"18.57","data":"Zip process reported: 0 warnings"}
+{"event":"message","time":1614934999,"u":"89","run":"2.50","mem":"18.57","data":"Zip Archive file successfully created with no errors (any actionable warnings ignored by user settings)."}
+{"event":"details","time":1614934999,"u":"89","run":"2.50","mem":"18.57","data":"Zip Archive file size: 65814522 bytes, owned by user:group 1002:1002 with permissions 0644"}
+{"event":"details","time":1614934999,"u":"89","run":"2.50","mem":"18.56","data":"The exec method for ZIP was successful."}
+{"event":"details","time":1614934999,"u":"89","run":"2.50","mem":"18.56","data":"Moving Zip Archive file to local archive directory."}
+{"event":"details","time":1614934999,"u":"89","run":"2.50","mem":"18.56","data":"Zip Archive file moved to local archive directory."}
+{"event":"message","time":1614934999,"u":"89","run":"2.50","mem":"18.56","data":"Backup ZIP file successfully created."}
+{"event":"details","time":1614934999,"u":"89","run":"2.50","mem":"18.56","data":"Chmod of ZIP file to 0644 succeeded."}
+{"event":"details","time":1614934999,"u":"89","run":"2.50","mem":"18.56","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1614934999,"u":"89","run":"2.50","mem":"18.56","data":"Pinging mysqli."}
+{"event":"details","time":1614934999,"u":"89","run":"2.50","mem":"18.56","data":"Database Server connection status verified."}
+{"event":"details","time":1614934999,"u":"89","run":"2.51","mem":"18.57","data":"Fileoptions `2wajn5evu4.txt` saved. 4244 bytes written."}
+{"event":"details","time":1614934999,"u":"89","run":"2.51","mem":"18.56","data":"Finished function `backup_zip_files`. Peak memory usage: 18.958 MB with BackupBuddy v8.4.19.0"}
+{"event":"finishFunction","time":1614934999,"u":"89","run":"2.51","mem":"18.56","data":"{\"function\":\"backup_zip_files\"}"}
+{"event":"details","time":1614934999,"u":"89","run":"2.51","mem":"18.56","data":"-----"}
+{"event":"details","time":1614934999,"u":"89","run":"2.51","mem":"18.56","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1614934999,"u":"89","run":"2.51","mem":"18.56","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1614934999,"u":"89","run":"2.51","mem":"18.56","data":"Scheduling Cron for `2wajn5evu4`."}
+{"event":"details","time":1614934999,"u":"89","run":"2.51","mem":"18.56","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1614934999,"u":"89","run":"2.51","mem":"18.56","data":"Pinging mysqli."}
+{"event":"details","time":1614934999,"u":"89","run":"2.51","mem":"18.56","data":"Database Server connection status verified."}
+{"event":"details","time":1614934999,"u":"89","run":"2.51","mem":"18.56","data":"Scheduling next step to run at `1614927799` (localized time: Mar 5, 2021 9:03:19 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `2wajn5evu4`."}
+{"event":"details","time":1614934999,"u":"90","run":"2.51","mem":"18.55","data":"Next step scheduled."}
+{"event":"startAction","time":1614934999,"u":"90","run":"2.51","mem":"18.55","data":"cronPass"}
+{"event":"cronParams","time":1614934999,"u":"90","run":"2.51","mem":"18.55","data":"eyJ0aW1lIjoxNjE0OTI3Nzk5LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjJ3YWpuNWV2dTQiXX0="}
+{"event":"details","time":1614934999,"u":"90","run":"2.51","mem":"18.54","data":"Not calling spawn_cron()."}
+{"event":"details","time":1614934999,"u":"90","run":"2.51","mem":"18.54","data":"About to run next step (integrity_check expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1614934999,"u":"90","run":"2.51","mem":"18.54","data":"Completed step function `backup_zip_files`."}
+{"event":"details","time":1614935002,"u":"40","run":"0.41","mem":"22.16","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"message","time":1614935002,"u":"40","run":"0.41","mem":"22.17","data":"Pong! Server replied."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.17","data":"--- New PHP process."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.17","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.17","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.17","data":"Reported PHP execution time - Configured: 30; Original: 600; Current: 600"}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.17","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (3000M) or over-ridden value"}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.17","data":"Reported PHP memory limits - Configured: 128M; Original: 3000M; Current: 3000M"}
+{"event":"message","time":1614935002,"u":"48","run":"0.21","mem":"18.17","data":"Running process for serial `2wajn5evu4`..."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.28","data":"About to load fileoptions data for serial `2wajn5evu4`."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.28","data":"Fileoptions instance #39."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.29","data":"Created fileoptions lock file `2wajn5evu4.txt.lock` with ID: 6041d7ba768203.88787941."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.29","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.29","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1614935002,"u":"48","run":"0.21","mem":"18.29","data":"cronPass"}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.31","data":"Fileoptions `2wajn5evu4.txt` saved. 4264 bytes written."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"Found next step to run: `integrity_check`."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"Peak memory usage: 19.43 MB"}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.29","data":"-----"}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"Starting step function `integrity_check`. Attempt #1."}
+{"event":"startFunction","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"{\"function\":\"integrity_check\",\"title\":\"Verifying backup file integrity\"}"}
+{"event":"milestone","time":1614935002,"u":"48","run":"0.21","mem":"18.29","data":"start_integrity"}
+{"event":"message","time":1614935002,"u":"48","run":"0.21","mem":"18.29","data":"Scanning and verifying backup file integrity."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"Starting integrity check on `\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip`."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"Started backup_integrity_check() function for `2wajn5evu4` for file `\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip`."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"Determining backup type of file `backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip`"}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"Detecting backup type if possible."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"Detected backup type as `themes` via filename."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"Resetting backup integrity stats for backup with serial `2wajn5evu4`."}
+{"event":"details","time":1614935002,"u":"48","run":"0.21","mem":"18.30","data":"Verifying comment in zip archive."}
+{"event":"details","time":1614935002,"u":"49","run":"0.22","mem":"18.30","data":"exec (unzip) retrieved comment in file \/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip"}
+{"event":"details","time":1614935002,"u":"49","run":"0.22","mem":"18.30","data":"NOTE: It is normal to see several \"File not found\" messages in the next several log lines."}
+{"event":"details","time":1614935002,"u":"51","run":"0.24","mem":"18.99","data":"exec (unzip) listed file contents (\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip)"}
+{"event":"details","time":1614935002,"u":"51","run":"0.24","mem":"18.99","data":"Zip Archive file size: 65814522 bytes, owned by user:group 1002:1002 with permissions 0644"}
+{"event":"details","time":1614935002,"u":"51","run":"0.24","mem":"18.30","data":"Retrieving zip scan log."}
+{"event":"details","time":1614935002,"u":"51","run":"0.24","mem":"18.30","data":"Calculating integrity scan status,"}
+{"event":"details","time":1614935002,"u":"51","run":"0.24","mem":"18.30","data":"Status: `Pass`. Description: ``."}
+{"event":"details","time":1614935002,"u":"51","run":"0.24","mem":"18.30","data":"Getting file details such as size, timestamp, etc."}
+{"event":"details","time":1614935002,"u":"51","run":"0.24","mem":"18.30","data":"Saving backup file integrity check details."}
+{"event":"details","time":1614935002,"u":"51","run":"0.24","mem":"18.31","data":"Fileoptions `2wajn5evu4.txt` saved. 5216 bytes written."}
+{"event":"milestone","time":1614935002,"u":"51","run":"0.24","mem":"18.30","data":"finish_integrity"}
+{"event":"details","time":1614935002,"u":"51","run":"0.24","mem":"18.31","data":"Fileoptions `2wajn5evu4.txt` saved. 5244 bytes written."}
+{"event":"details","time":1614935002,"u":"51","run":"0.25","mem":"18.30","data":"Finished function `integrity_check`. Peak memory usage: 19.43 MB with BackupBuddy v8.4.19.0"}
+{"event":"finishFunction","time":1614935002,"u":"51","run":"0.25","mem":"18.30","data":"{\"function\":\"integrity_check\"}"}
+{"event":"details","time":1614935002,"u":"51","run":"0.25","mem":"18.30","data":"-----"}
+{"event":"details","time":1614935002,"u":"51","run":"0.25","mem":"18.30","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1614935002,"u":"51","run":"0.25","mem":"18.30","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1614935002,"u":"51","run":"0.25","mem":"18.30","data":"Scheduling Cron for `2wajn5evu4`."}
+{"event":"details","time":1614935002,"u":"51","run":"0.25","mem":"18.30","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1614935002,"u":"51","run":"0.25","mem":"18.30","data":"Pinging mysqli."}
+{"event":"details","time":1614935002,"u":"51","run":"0.25","mem":"18.30","data":"Database Server connection status verified."}
+{"event":"details","time":1614935002,"u":"51","run":"0.25","mem":"18.30","data":"Scheduling next step to run at `1614927802` (localized time: Mar 5, 2021 9:03:22 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `2wajn5evu4`."}
+{"event":"details","time":1614935002,"u":"52","run":"0.25","mem":"18.30","data":"Next step scheduled."}
+{"event":"startAction","time":1614935002,"u":"52","run":"0.25","mem":"18.30","data":"cronPass"}
+{"event":"cronParams","time":1614935002,"u":"52","run":"0.25","mem":"18.30","data":"eyJ0aW1lIjoxNjE0OTI3ODAyLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjJ3YWpuNWV2dTQiXX0="}
+{"event":"details","time":1614935002,"u":"52","run":"0.26","mem":"18.29","data":"Not calling spawn_cron()."}
+{"event":"details","time":1614935002,"u":"52","run":"0.26","mem":"18.29","data":"About to run next step (post_backup expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1614935002,"u":"53","run":"0.26","mem":"18.28","data":"Completed step function `integrity_check`."}
+{"event":"details","time":1614935004,"u":"95","run":"0.33","mem":"22.16","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"message","time":1614935004,"u":"95","run":"0.33","mem":"22.17","data":"Pong! Server replied."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.42","data":"--- New PHP process."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.42","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.42","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.42","data":"Reported PHP execution time - Configured: 30; Original: 600; Current: 600"}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.42","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (3000M) or over-ridden value"}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.42","data":"Reported PHP memory limits - Configured: 128M; Original: 3000M; Current: 3000M"}
+{"event":"message","time":1614935005,"u":"00","run":"0.14","mem":"18.42","data":"Running process for serial `2wajn5evu4`..."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.53","data":"About to load fileoptions data for serial `2wajn5evu4`."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.53","data":"Fileoptions instance #39."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.53","data":"Created fileoptions lock file `2wajn5evu4.txt.lock` with ID: 6041d7bd00cb63.11544924."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"cronPass"}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.55","data":"Fileoptions `2wajn5evu4.txt` saved. 5268 bytes written."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Found next step to run: `post_backup`."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Peak memory usage: 18.958 MB"}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"-----"}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Starting step function `post_backup`. Attempt #1."}
+{"event":"startFunction","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"{\"function\":\"post_backup\",\"title\":\"Cleaning up\"}"}
+{"event":"message","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Cleaning up after backup."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Removing temp data directory."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Removing temp zip directory."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Trimming old archives (if needed)."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.55","data":"Trimmed 0 old archives based on settings archive limits."}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Final ZIP file size: 62.77 MB"}
+{"event":"archiveSize","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"62.77 MB"}
+{"event":"details","time":1614935005,"u":"00","run":"0.14","mem":"18.54","data":"Updating statistics for last backup completed and number of edits since last backup."}
+{"event":"details","time":1614935005,"u":"01","run":"0.15","mem":"18.55","data":"Cleaning up any old temporary zip directories in: `\/home\/hurghada\/public_html\/wp-content\/uploads\/backupbuddy_temp\/`. If no recent backups then the temp directory will also be purged."}
+{"event":"message","time":1614935005,"u":"01","run":"0.15","mem":"18.55","data":"Finished cleaning up."}
+{"event":"archiveInfo","time":1614935005,"u":"01","run":"0.15","mem":"18.55","data":"{\"file\":\"backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip\",\"url\":\"https:\\\/\\\/hurghadashop.com\\\/wp-admin\\\/admin-ajax.php?action=pb_backupbuddy_backupbuddy&function=download_archive&backupbuddy_backup=backup-hurghadashop_com-2021_03_05-09_03am-themes-2wajn5evu4.zip\"}"}
+{"event":"details","time":1614935005,"u":"01","run":"0.15","mem":"18.56","data":"Fileoptions `2wajn5evu4.txt` saved. 5308 bytes written."}
+{"event":"details","time":1614935005,"u":"01","run":"0.15","mem":"18.55","data":"Finished function `post_backup`. Peak memory usage: 18.958 MB with BackupBuddy v8.4.19.0"}
+{"event":"finishFunction","time":1614935005,"u":"01","run":"0.15","mem":"18.55","data":"{\"function\":\"post_backup\"}"}
+{"event":"details","time":1614935005,"u":"01","run":"0.15","mem":"18.55","data":"-----"}
+{"event":"details","time":1614935005,"u":"01","run":"0.15","mem":"18.55","data":"No more backup steps remain. Finishing..."}
+{"event":"details","time":1614935005,"u":"01","run":"0.15","mem":"18.56","data":"Fileoptions `2wajn5evu4.txt` saved. 5328 bytes written."}
+{"event":"startFunction","time":1614935005,"u":"01","run":"0.15","mem":"18.55","data":"{\"function\":\"backup_success\",\"title\":\"Backup completed successfully.\"}"}
+{"event":"finishFunction","time":1614935005,"u":"01","run":"0.15","mem":"18.55","data":"{\"function\":\"backup_success\"}"}
+{"event":"details","time":1614935005,"u":"01","run":"0.15","mem":"18.55","data":"Closing & unlocking fileoptions."}
+{"event":"details","time":1614935005,"u":"01","run":"0.15","mem":"18.54","data":"Completed step function `post_backup`."}
+{"event":"details","time":1614935007,"u":"26","run":"0.16","mem":"22.08","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1614935007,"u":"26","run":"0.16","mem":"22.08","data":"--- New PHP process."}
+{"event":"details","time":1614935007,"u":"26","run":"0.16","mem":"22.08","data":"Completed backup final ZIP file size: 62.77 MB"}
+{"event":"archiveSize","time":1614935007,"u":"26","run":"0.16","mem":"22.08","data":"62.77 MB"}
+{"event":"message","time":1614935007,"u":"26","run":"0.16","mem":"22.08","data":"Backup successfully completed in 10 seconds with BackupBuddy v8.4.19.0. Trigger: `manual`."}
+{"event":"milestone","time":1614935007,"u":"26","run":"0.16","mem":"22.08","data":"finish_backup"}
+{"event":"message","time":1614935007,"u":"26","run":"0.16","mem":"22.09","data":"Pong! Server replied."}

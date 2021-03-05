@@ -57,7 +57,7 @@ function register_custom_posts_dive_sites_init() {
     // Register Dive Sites
     $dive_sites_labels = array(
         'name'               => 'Dive Sites',
-        'singular_name'      => 'Dive Site',
+        'singular_name'      => 'Dive Sites',
         'menu_name'          => 'Dive Sites'
     );
     $dive_sites_args = array(
@@ -127,7 +127,7 @@ function register_custom_posts_courses_init() {
     // Register Courses
     $courses_labels = array(
         'name'               => 'Courses',
-        'singular_name'      => 'Course',
+        'singular_name'      => 'Courses',
         'menu_name'          => 'Courses'
     );
     $courses_args = array(
@@ -135,7 +135,7 @@ function register_custom_posts_courses_init() {
         'public'             => true,
         'capability_type'    => 'post',
         'has_archive'        => true,
-        'menu_icon'          => 'dashicons-location',
+        'menu_icon'          => 'dashicons-book-alt',
         'supports'           => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions' ),
         'rewrite' => array( 'slug' => 'courses/%courses-category%', 'with_front' => false ),
         'has_archive' => 'courses-category',
@@ -264,6 +264,35 @@ function trips_register_taxonomy_for_object_type() {
 
 
 
+
+
+/////////////////////////////////////////////////////////////////////////
+///////////////// Schedules Post Type ///////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+// Register Custom Post Type ( Schedules )
+add_action('init', 'register_custom_posts_schedules_init');
+function register_custom_posts_schedules_init() {
+    // Register Schedules
+    $schedules_labels = array(
+        'name'               => 'Schedules',
+        'singular_name'      => 'Schedules',
+        'menu_name'          => 'Schedules'
+    );
+    $schedules_args = array(
+        'labels'             => $schedules_labels,
+        'public'             => true,
+        'capability_type'    => 'post',
+        'has_archive'        => true,
+        'menu_icon'          => 'dashicons-text-page',
+        'supports'           => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions' )
+    );
+    register_post_type('schedules', $schedules_args);
+}
+
+/////////////////////////////////////////////////////////////////////////
+///////////////// End Schedules Post Type ///////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
 ////////////////////////////////////////////////////////////
 /////////// Fix Tags Issue with Custom Post Type//////////
 ////////////////////////////////////////////////////////////
@@ -286,7 +315,7 @@ add_action('pre_get_posts', function($query) {
 
 
 function wess_slider(){
-    if( is_single() && ( get_post_type()=='boats' || get_post_type()=='trips') ){
+    if( is_single()  ){
             wp_register_style( 'wmslider_carousel', get_theme_file_uri('/slider/owl.carousel.min.css') );
 			wp_enqueue_style( 'wmslider_carousel' );
 			
@@ -355,3 +384,6 @@ function cc_mime_types($mimes) {
   return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');
+
+
+

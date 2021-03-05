@@ -241,8 +241,15 @@ text-shadow: 2px 2px 3px #000;
     background:#1e9cb3 !important;
 }
 
+.hotel-details .dt-sc-button{
+    z-index: 0 !important;
+}
+
 #pop_booking_form{
 max-width: 800px !important;
+}
+.sch_pop{
+    max-width: 800px !important;
 }
 
 .pop_booking_section{
@@ -253,11 +260,15 @@ max-width: 800px !important;
     padding:0px !important;
 }
 
-#pop_booking_form h4 ,#pop_booking_form h3{
+.sch_pop h4 , h3{
     margin: 0 !important;
 }
 
-#pop_booking_form .include_list, #pop_booking_form .exclude_list{
+
+
+
+
+.sch_pop .include_list, .exclude_list{
     font-size: 90%;
 }
 
@@ -337,10 +348,11 @@ max-width: 800px !important;
 
 .div-table-head{
     text-align: left;
-    background: #BF0204;
+    background: #414141;
     color:#fff;
     padding:20px;
     font-size: 25px;
+    display:none;
 }
 
 .booking-col button{
@@ -365,4 +377,137 @@ max-width: 800px !important;
 
 .dt-logo-container a img {
     min-width: 158px;
+}
+
+.course_info_top{
+    margin-bottom: 20px;
+}
+.course_info_block, .course_info_block_cat{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+.course_info_block .inf_ico{
+    margin-right: 16px;
+    max-width: 40px;
+}
+
+.course_info_block_cat .inf_ico{
+    margin-right: 16px;
+    max-width: 25px;
+}
+
+.empty_spc_10{
+    margin-top:10px;
+    min-height:10px;
+}
+.empty_spc_20{
+    margin-top:20px;
+    min-height:20px;
+}
+.empty_spc_30{
+    margin-top:30px;
+    min-height:30px;
+}
+.empty_spc_40{
+    margin-top:40px;
+    min-height:40px
+}
+.hd_title_no_slider{
+    padding: 27px 0px 27px;
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+.rmv_bottom_spc{
+    margin-bottom: 0px !important;
+}
+
+.border_btm_end{
+    border-bottom:1px solid #e7eaec;
+}
+
+.ds_inf_block:last-child{
+    border-bottom:0px;
+}
+
+
+.ds_top_content{
+    display: inherit;
+}
+
+.ds_data {
+    background: #093a48;
+    color:#fff !important;
+    display: inherit;
+}
+
+.ds_data *{
+    color:#fff !important;
+}
+
+
+@media only screen and (min-width: 767px) {
+    .ds_top_content{
+        display: flex;
+    }
+
+    .ds_data{
+        display: flex;
+    }
+}
+.ds_inf_block{
+    border-bottom: 3px solid #1e9cb3;
+}
+
+.ds_inf_txt{
+    font-size: 18px;
+    padding: 6% 0;
+}
+
+.ds_information{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.ds_container{
+    margin:22px 0px;
+}
+
+.ds_3col .dt-sc-one-third{
+    background: #093a48;
+    margin-bottom: 25px;
+}
+
+.ds_3col .dt-sc-one-third h3{
+    color: #fff;
+    padding: 7px 0px 0px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.ds_3col .thumb-wrapper{
+    line-height: 0;
+    margin-bottom: 12px;
+}
+
+
+.ds_3col a h3:hover{
+    text-shadow: 4px 3px 5px #000;
+}
+
+.ds_container h2{
+    color: #1e9cb3 !important;
+}
+
+.ds_3col .wpb_column img{
+    min-width: 100%;
+}
+
+.sch_table table th{
+    background-color: #414141;
+    padding: 15px 0px;
 }
